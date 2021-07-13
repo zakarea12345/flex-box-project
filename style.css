@@ -1,0 +1,171 @@
+/*--------------
+             Common styles
+             --------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------------------------
+ Header-container section style 
+ ------------------------------*/
+ .header-container{
+     height: 600px;
+     background-image: linear-gradient(
+        0deg
+        , rgba(35, 23, 144, 0.493), rgba(53, 22, 22, 0.582)),url(bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+ }
+ header{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+ header h1{
+     font-size: 45px;
+ }
+ nav a{
+     text-decoration: none;
+     margin-left: 10px;
+     color: white;
+ }
+ .about-header{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 100px;
+    
+ }
+ .about-header h1{
+     font-size: 40px;
+ }
+ .about-header h2{
+     font-size: 1.5rem;
+ }
+ .btn{
+     background-color: tomato;
+     padding: 10px 15px;
+     border-radius: 20px;
+     color: #fff;
+     border: 0;
+     margin-top: 20px;
+    
+    
+ }
+ /* about container style 
+ */
+ .about-container{
+     padding: 20px;
+ }
+ .about-container h1{
+     text-align: center;
+     font-size: 30px;
+     margin-bottom: 40px;
+ }
+ .about{
+     display: flex;
+     justify-content: space-around;
+     
+ }
+ .about-picture{
+     width: 400px;
+     margin-left: 250px;
+ }
+ .about-detail{
+     margin-right: 150px;
+ }
+ /* services-container styles */
+ .service-container{
+    background: lightgrey;
+    height: 500px;
+    padding-top: 5%;
+ }
+ .service-container h1{
+     text-align: center;
+     margin-bottom: 40px;
+     
+ }
+ .services{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+ .service{
+     width: 30%;
+ }
+ .fa-laptop-code{
+     color: rgb(248, 41, 4);
+     display: flex;
+     justify-content: center;
+     margin-bottom: 30px;
+     font-size: 40px;
+ }
+ .service h3{
+     display: flex;
+     justify-content: center;
+     margin-bottom: 20px;
+ }
+ .service p{
+     display: flex;
+     justify-content: center;
+     line-height: 2;
+ }
+ .contact-container{
+     margin-top: 40px;
+     height: 300px;
+     align-items: center;
+ }
+ .contact-container h1{
+     display: flex;
+     justify-content: center;
+    }
+    .contacts{
+        display: flex;
+        justify-content: space-around;
+    }
+    .fa-map-marker-alt{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+.contact p{
+    display: flex;
+    justify-content: center;
+}
+.sign-up{
+    background-color: blue;
+}
+.sign-up h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+}
+.input-box h1,p{
+    display: flex;
+   
+    justify-content: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.fill{
+    margin-bottom: 1%;
+    padding: 17px 21px;
+    width: 15%;
+    border: 1px solid lightgray;
+    
+}
+footer{
+    background-color: blue;
+    color: white;
+}
